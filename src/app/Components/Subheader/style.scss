@@ -1,0 +1,16 @@
+.custom--div {
+    display: flex;
+}
+
+.subheader--main {
+    margin-bottom: 32px;
+}
+
+@media (max-width: 780px) {
+    .custom--div {
+        display: block !important;
+    }
+    .btn {
+        margin-bottom: 5px;
+    }
+}
