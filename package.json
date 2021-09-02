@@ -2,9 +2,9 @@
     "name": "demo2",
     "version": "7.1.2",
     "private": true,
-    "homepage": "",
+    "homepage": "https://district-printing.herokuapp.com/",
     "engines": {
-      "node": "6.11.1"
+        "node": "6.11.1"
     },
     "scripts": {
         "start": "node ./server/index.js",

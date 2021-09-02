@@ -3,12 +3,12 @@
   "redirects": [
     {
       "source": "/",
-      "destination": ""
+      "destination": "/"
     }
   ],
   "rewrites": [
     {
-      "source": "./build/**",
+      "source": "/*",
       "destination": "./build/index.html"
     }
   ]
