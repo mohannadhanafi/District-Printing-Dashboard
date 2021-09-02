@@ -7,7 +7,7 @@
         "node": "6.11.1"
     },
     "scripts": {
-        "start": "node ./server/index.js",
+        "start": "node NODE_ENV=PRODUCTION ./server/index.js",
         "dev": "react-scripts start -o",
         "build": "react-scripts build",
         "test": "react-scripts test",
